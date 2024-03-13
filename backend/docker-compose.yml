@@ -1,0 +1,13 @@
+version: '3.8'
+
+services:
+  tasksdb:
+    image: mysql
+    container_name: tasksdb
+    restart: always
+    ports:
+      - 33006:3600
+    
+  
+
+
